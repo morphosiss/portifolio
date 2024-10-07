@@ -1,14 +1,22 @@
 import { GitBranch } from "lucide-react";
 import ImageLogo from "/img/logo.png";
 import Ilustration from "/img/ilustration.png";
+import { ReactTyped } from "react-typed";
 
 const InitialBanner = () => {
   return (
     <section className="pt-32 w-full">
       <div className="max-w-6xl text-center w-full m-auto">
         <h1 className="text-white bg-gradient-to-r from-zinc-700  to-white  leading-tight font-medium text-7xl mainTittle">
-          Uma equipa focada na inovação e no desenvolvimento tecnológico!
+          Uma equipa focada na inovação e no{" "}
+          <ReactTyped
+            strings={[" desenvolvimento tecnológico!"]}
+            loop
+            typeSpeed={50}
+            backSpeed={30}
+          />
         </h1>
+
         <div className="max-w-3xl w-full m-auto pt-5">
           <h2 className="text-white">
             Surgimos na necessidade de provermos ideias que impulsionem e que
@@ -26,9 +34,9 @@ const InitialBanner = () => {
           </div>
         </div>
       </div>
-        <div className="w-full">
-          <img src={Ilustration} alt="image" className="m-auto" />
-        </div>
+      <div className="w-full">
+        <img src={Ilustration} alt="image" className="m-auto" />
+      </div>
     </section>
   );
 };
@@ -60,11 +68,6 @@ const Header = () => {
             <li>
               <a href="#" className="text-white">
                 Equipa
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-white">
-                Contacto
               </a>
             </li>
             <li>

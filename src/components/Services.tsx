@@ -15,7 +15,7 @@ const CardService: React.FC<CardServiceProps> = ({ icon, title, desc }) => {
         {icon}
         <img
           src={Ball}
-          className="opacity-45 absolute"
+          className="opacity-55 absolute"
           alt="degrade_image_effect"
         />
       </header>
@@ -27,7 +27,7 @@ const CardService: React.FC<CardServiceProps> = ({ icon, title, desc }) => {
         <footer className="mt-8">
           <a
             href="#"
-            className="text-white text-[14px] bg-[#5E17EB] font-medium ring-4 ring-violet-400 ring-opacity-15 px-6 py-2.5 rounded-full"
+            className="text-white text-[14px] bg-[#5E17EB] transition-all hover:bg-indigo-700 font-medium ring-4 ring-violet-400 ring-opacity-15 px-6 py-2.5 rounded-full"
           >
             Solicitar
           </a>
@@ -46,7 +46,7 @@ const Services = () => {
         </h4>
       </header>
 
-      <div className="mt-12 max-w-7xl w-full m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="mt-12 max-w-7xl w-full m-auto grid grid-cols-4 gap-4">
         <CardService
           icon={
             <TabletSmartphone
