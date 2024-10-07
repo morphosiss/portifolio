@@ -1,5 +1,4 @@
 import { GitBranch } from "lucide-react";
-import "../App.css";
 import ImageLogo from "/img/logo.png";
 import Ilustration from "/img/ilustration.png";
 
@@ -13,7 +12,7 @@ const InitialBanner = () => {
         <div className="max-w-3xl w-full m-auto pt-5">
           <h2 className="text-white">
             Surgimos na necessidade de provermos ideias que impulsionem e que
-            faça de nós mais amantes do desenvolvimento tecnológico, para
+            façam de nós mais amantes do desenvolvimento tecnológico, para
             provermos ideias para a evolução e bem estar humano!
           </h2>
           <div className="pt-5 flex justify-center">
@@ -56,6 +55,11 @@ const Header = () => {
             <li>
               <a href="#" className="text-white">
                 Serviços
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-white">
+                Equipa
               </a>
             </li>
             <li>
