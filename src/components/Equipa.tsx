@@ -52,7 +52,7 @@ const Equipa = () => {
         <hr className=" bg-zinc-950 border-zinc-950 w-full" />
       </header>
 
-      <div className="max-w-7xl mb-5 gap-4 mt-20 w-full m-auto grid grid-cols-3">
+      <div className="max-w-7xl mb-5 gap-4 mt-20 w-full m-auto grid paisagem-tablet:grid-cols-3 retrato-tablet:grid-cols-2 grid-cols-1 p-4">
         <CardProfile
           pathhImg={Avatar}
           area="Desenvolvedor Back-end"
